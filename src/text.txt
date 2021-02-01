@@ -1,0 +1,52 @@
+const ss1 = css`
+  width: 100%;
+  padding-top: 350px;
+  background-color: #212224;
+  overflow: hidden;
+  position: relative;
+  /* display: inline; */
+  .pic-1 {
+  }
+  img {
+    /* display: inline; */
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    padding-left: 1.5rem;
+  }
+  .s1text {
+    /* display: inline; */
+    position: absolute;
+    z-index: 999;
+    padding-top: 50%;
+    margin-left: 45%;
+  }
+`;
+
+z-index: 1000;
+  width: 100%;
+  position: fixed;
+  display: inline;
+  background-color: transparent;
+  div {
+    margin-left: 1%;
+    float: left;
+    display: inline;
+  }
+  i {
+    color: #fff;
+  }
+  h1 {
+    color: #fff;
+    font-family: usual, Inter-Regular, -apple-system, BlinkMacSystemFont,
+      'Roboto', 'Open Sans', sans-serif;
+    display: inline;
+    margin-left: 10px;
+    font-size: 3rem;
+  }
+  form {
+    line-height: 3rem;
+    float: right;
+    /* display: inline; */
+    margin-right: 1%;
+  }
