@@ -21,21 +21,25 @@ const headerStyle = css`
 const ss1 = css`
   padding-top: 50px;
   display: grid;
-  grid-template-columns: 40% 10% 50%;
+  grid-template-columns: 60% 40%;
   img {
-    width: 90%;
+    width: 80%;
     margin-left: auto;
   }
   .pic-1 {
-    grid-column: 1/3;
-    grid-row: 1;
     text-align: right;
   }
   .s1text {
-    grid-column: 2/4;
-    grid-row: 1;
-    padding-top: 25%;
-    padding-left: 5.5rem;
+    color: #fff;
+    padding-top: 20%;
+    width: 50%;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.3rem;
+    color: grey;
   }
 `;
 
