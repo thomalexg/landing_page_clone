@@ -35,6 +35,69 @@ const fixedStyle = css`
 
 const headerStyle = css`
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  position: fixed;
+  width: 100%;
+  .box1-1 {
+    padding: 40px 0 0 50px;
+    color: white;
+    font-family: Monaco, monospace;
+  }
+  h1 {
+    display: inline;
+    padding-left: 15px;
+  }
+  .box1-2 {
+    justify-self: end;
+    margin-right: 2.5rem;
+    text-align: center;
+  }
+  p {
+    padding-top: 10px;
+    margin: 0 auto;
+    z-index: 1001;
+    line-height: 50px;
+    font-size: 0.9rem;
+    font-family: Monaco, monospace;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    line-height: 30px;
+  }
+  .input {
+    background-color: #fff;
+    width: 410px;
+    border-radius: 30px;
+    line-height: 48px;
+  }
+  input {
+    border-style: none;
+    padding-left: 33px;
+    width: 251px;
+    line-height: 36px;
+    vertical-align: center;
+    outline: none;
+    display: inline;
+    background-color: transparent;
+    font-family: Monaco, monospace;
+    font-size: 1.06rem;
+  }
+  button {
+    font-family: Monaco, monospace;
+    font-size: 1.05rem;
+    letter-spacing: 0.1rem;
+    line-height: 36px;
+    display: inline;
+    border-radius: 5px;
+    background-color: purple;
+    border: 1px solid green;
+    color: #fff;
+    padding: 0 10px;
+    width: 115px;
+    border-radius: 25px;
+  }
+  /* display: grid;
   width: 100%;
   grid-template-columns: 1fr 1fr;
   position: fixed;
@@ -50,8 +113,9 @@ const headerStyle = css`
     border: 1px solid grey;
     border-radius: 30px;
     padding: 2px 10px;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas: 'p input';
     height: 40px;
     background-color: #fff;
     width: 300px;
@@ -63,6 +127,10 @@ const headerStyle = css`
     vertical-align: center;
     flex-grow: 2;
     outline: none;
+    grid-area: 'input';
+  }
+  p {
+    grid-area: 'p';
   }
   button {
     border-radius: 5px;
@@ -72,6 +140,7 @@ const headerStyle = css`
     padding: 0 10px;
     width: 100px;
     border-radius: 25px;
+    grid-area: 'input';
   }
   i {
     display: inline;
@@ -92,7 +161,7 @@ const headerStyle = css`
     .box1-2 {
       display: none;
     }
-  }
+  } */
 `;
 const ss1 = css`
   margin: 0;
