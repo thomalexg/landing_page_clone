@@ -11,7 +11,7 @@ const fixedStyle = css`
   text-align: center;
   vertical-align: middle;
   line-height: 50px;
-  font-size: 1.3rem;
+  font-size: 0.99rem;
   font-family: Monaco, monospace;
   color: #fff;
 
@@ -25,6 +25,10 @@ const fixedStyle = css`
     height: 2rem;
     padding: 5px;
     border: 1px solid transparent;
+    vertical-align: middle;
+    width: 115px;
+    font-family: Monaco, monospace;
+    font-weight: bold;
   }
   button:hover {
     color: white;
@@ -168,7 +172,7 @@ const ss1 = css`
   padding: 0;
   box-sizing: border-box;
   padding-top: 180px;
-  margin-bottom: -52px;
+  margin-bottom: -4px;
   display: grid;
   grid-template-columns: 55% 45%;
   img {
@@ -184,15 +188,22 @@ const ss1 = css`
   }
   .s1text {
     color: #fff;
-    padding-top: 20%;
+    padding-top: 15%;
     width: 50%;
   }
   h2 {
-    font-size: 3rem;
+    font-size: 3.3rem;
+    letter-spacing: 90%;
+    font-weight: bold;
+    line-height: 1.1;
+    font-family: usual, Inter-Regular, -apple-system, BlinkMacSystemFont,
+      'Roboto', 'Open Sans', sans-serif;
   }
   p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: grey;
+    font-family: usual, Inter-Regular, -apple-system, BlinkMacSystemFont,
+      'Roboto', 'Open Sans', sans-serif;
   }
   @media (max-width: 1350px) {
     grid-template-columns: 100%;
@@ -219,16 +230,31 @@ const ss2 = css`
   color: #fff;
   width: 100%;
   height: 20rem;
-  text-align: center;
-  h3 {
-    font-size: 3rem;
-    padding-bottom: 1.5rem;
-    padding-top: 1.5rem;
+  padding-top: 200px;
+  .con2 {
+    margin: 0 auto;
+    width: 75%;
   }
-  .s2text {
-    display: block;
+  .texts2 {
     width: 50%;
     margin: 0 auto;
+    text-align: left;
+  }
+  p {
+    padding-bottom: 0;
+    margin: 0;
+  }
+  h3 {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 3rem;
+    width: 75%;
+    padding-bottom: 1.5rem;
+    letter-spacing: -0.1rem;
+    word-spacing: -0.9rem;
+}
+  }
+  .s2text {
   }
 `;
 

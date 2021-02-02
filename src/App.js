@@ -176,18 +176,22 @@ function App() {
         </div>
       </div>
       <div id={2} css={ss2}>
-        <h3>Designed for better writing and thinking.</h3>
-        <div></div>
-        <p className="s2text">
-          Word processors have always worked in straight lines – top to bottom,
-          left to right. But that’s not how our minds work. What if we had a
-          tool that could work in straight lines or… well… not straight lines?
-          We think it makes for a pretty powerful thinking tool. We built a new
-          style of text editor from the ground up to better support creative
-          thinking. Clover lets you explode traditional documents and work in a
-          more free-form manner for better brainstorming, mind-mapping, and
-          exploration.
-        </p>
+        <div className="con2">
+            <div className="texts2">
+              <p>REIMAGINING THE PAGE</p>
+              <h3>Designed for better writing and thinking.</h3>
+              <p className="s2text">
+                Word processors have always worked in straight lines – top to
+                bottom, left to right. But that’s not how our minds work. What
+                if we had a tool that could work in straight lines or… well… not
+                straight lines? We think it makes for a pretty powerful thinking
+                tool. We built a new style of text editor from the ground up to
+                better support creative thinking. Clover lets you explode
+                traditional documents and work in a more free-form manner for
+                better brainstorming, mind-mapping, and exploration.
+              </p>
+            </div>
+        </div>
       </div>
       <div id={3}>Section 3</div>
       <div id={4}>Section 4</div>
@@ -195,7 +199,7 @@ function App() {
       <div id={6}>Section 6</div>
       <div className="fixed" css={fixedStyle}>
         WE JUST RAISED A $1.1M SEED ROUND AND WE’RE HIRING ENGINEERS!
-        <button>Apply Now!</button>
+        <button>APPLY NOW</button>
       </div>
     </div>
   );
