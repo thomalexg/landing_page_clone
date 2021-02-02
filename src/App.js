@@ -155,6 +155,7 @@ function App() {
           <h1>Cloner</h1>
         </div>
         <form className="box1-2">
+          <p>Sign up for early access!</p>
           <input type="email" placeholder="Enter mail to subscribe!"></input>
           <button>Subscribe!</button>
         </form>

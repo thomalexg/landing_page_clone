@@ -98,10 +98,10 @@ const ss1 = css`
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  padding-top: 50px;
+  padding-top: 180px;
   margin-bottom: -52px;
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 55% 45%;
   img {
     width: 810.23px;
     height: 718.25px;
