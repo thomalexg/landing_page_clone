@@ -284,12 +284,13 @@ const ss5 = css`
     display: grid;
     grid-template-columns: 1fr 1fr;
     position: relative;
-    padding-bottom: 55px;
     z-index: 1010;
     color: #fff;
+    bottom: 70px;
   }
   .left {
     justify-self: start;
+    padding-left: 20px;
   }
   .cloner {
     margin: 0 5px;
@@ -303,7 +304,7 @@ const ss5 = css`
     justify-self: end;
     align-self: end;
     text-align: right;
-    padding-right: 5px;
+    padding-right: 20px;
   }
   a {
     text-decoration: none;

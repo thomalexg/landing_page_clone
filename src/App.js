@@ -88,7 +88,22 @@ function App() {
       <div id={5} css={ss5}>
         <div>
           <img src="pics/footer.png" alt="footer"></img>
+          <div className="footer">
+            <div className="left">
+              <p className="cloner">Cloner</p>
+              <p className="inc">2020 CLoner Software Inc.</p>
+            </div>
+            <div className="tags">
+              <a href="#1">Twitter</a>
+              <a href="#1">Privacy</a>
+              <a href="#1">Terms</a>
+              <a href="#1">Contact us</a>
+            </div>
+          </div>
         </div>
+      </div>
+      {/* <div className="container">
+        <img src="pics/footer.png" alt="footer"></img>
         <div className="footer">
           <div className="left">
             <p className="cloner">Cloner</p>
@@ -101,7 +116,7 @@ function App() {
             <a href="#1">Contact us</a>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="fixed" css={fixedStyle}>
         WE JUST RAISED A $1.1M SEED ROUND AND WE’RE HIRING ENGINEERS!
         <button>APPLY NOW</button>
