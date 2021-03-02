@@ -6,13 +6,13 @@ function App() {
     <div className="App">
       <div css={headerStyle} className="App-header container-1">
         <div className="box1-1">
-          <i class="fab fa-pagelines fa-3x"></i>
+          <i class="fab fa-pagelines fa-3x" />
           <h1>Cloner</h1>
         </div>
         <form className="box1-2">
           <p>Sign up for early access</p>
           <div className="input">
-            <input type="email" placeholder="EMAIL ADDRESS"></input>
+            <input type="email" placeholder="EMAIL ADDRESS" />
             <button>SIGN UP</button>
           </div>
         </form>
@@ -23,7 +23,7 @@ function App() {
             className="img1"
             src="pics/tabphone-s-1.jpg"
             alt="Tablet and phone"
-          ></img>
+          />
         </div>
         <div className="grid-item-1 s1text">
           <h2>The all-in-one notebook for creatives.</h2>
@@ -47,7 +47,7 @@ function App() {
             </p>
           </div>
           <div className="img-2">
-            <img src="pics/web.png" alt="note app"></img>
+            <img src="pics/web.png" alt="note app" />
           </div>
         </div>
       </div>
@@ -63,12 +63,12 @@ function App() {
           </p>
         </div>
         <div className="img-4">
-          <img src="pics/phone-s-3.png" alt="phone"></img>
+          <img src="pics/phone-s-3.png" alt="phone" />
         </div>
       </div>
       <div id={4} css={ss4}>
         <div className="img-4">
-          <img src="pics/s3.png" alt="alt"></img>
+          <img src="pics/s3.png" alt="alt" />
         </div>
         <div className="con4">
           <div className="texts4">
@@ -87,7 +87,7 @@ function App() {
 
       <div id={5} css={ss5}>
         <div>
-          <img src="pics/footer.png" alt="footer"></img>
+          <img src="pics/footer.png" alt="footer" />
           <div className="footer">
             <div className="left">
               <p className="cloner">Cloner</p>
@@ -102,21 +102,6 @@ function App() {
           </div>
         </div>
       </div>
-      {/* <div className="container">
-        <img src="pics/footer.png" alt="footer"></img>
-        <div className="footer">
-          <div className="left">
-            <p className="cloner">Cloner</p>
-            <p className="inc">2020 CLoner Software Inc.</p>
-          </div>
-          <div className="tags">
-            <a href="#1">Twitter</a>
-            <a href="#1">Privacy</a>
-            <a href="#1">Terms</a>
-            <a href="#1">Contact us</a>
-          </div>
-        </div>
-      </div> */}
       <div className="fixed" css={fixedStyle}>
         WE JUST RAISED A $1.1M SEED ROUND AND WE’RE HIRING ENGINEERS!
         <button>APPLY NOW</button>
