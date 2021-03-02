@@ -1,6 +1,8 @@
+// eslint-disable-next-line @typescript-eslint/naming-convention
 import { css, Global } from '@emotion/react';
 import React from 'react';
 import ReactDOM from 'react-dom';
+// eslint-disable-next-line @typescript-eslint/naming-convention
 import App from './App';
 import './index.css';
 
