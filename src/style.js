@@ -114,8 +114,6 @@ const ss1 = css`
   img {
     width: 810.23px;
     height: 718.25px;
-    /* min-width: 80%; */
-    /* max-height: 80%; */
     margin-left: auto;
     object-fit: cover;
   }
@@ -165,8 +163,6 @@ const ss2 = css`
   background-color: black;
   color: #fff;
   width: 100%;
-
-  /* height: 20rem; */
   padding-top: 200px;
   .con2 {
     margin: 0 auto;
@@ -240,8 +236,6 @@ const ss4 = css`
   background-color: black;
   color: #fff;
   width: 100%;
-
-  /* height: 20rem; */
   padding-top: 200px;
   padding-bottom: 200px;
   .con4 {
@@ -272,9 +266,6 @@ const ss4 = css`
     padding-top: 50px;
     text-align: center;
     padding-bottom: 100px;
-  }
-  .s4text {
-    /* padding-bottom: 100px; */
   }
   :hover {
     background-color: #212224;

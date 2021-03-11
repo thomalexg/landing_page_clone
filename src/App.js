@@ -75,7 +75,7 @@ function App() {
           <div className="texts4">
             <p>A COMMAND LINE FOR CREATIVITY</p>
             <h3>Quickly capture ideas, notes, and tasks.</h3>
-            <p className="s4text">
+            <p>
               We know ideas can strike at any moment, so we made it as
               frictionless as possible to capture things as they pop up. Open
               Clover's command prompt with a simple keystroke, and it will

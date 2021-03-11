@@ -2,7 +2,7 @@ import { css, Global } from '@emotion/react';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import './index.css';
+
 
 const globalStyles = css`
   background-color: #212224;
