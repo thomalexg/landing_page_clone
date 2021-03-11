@@ -1,4 +1,5 @@
-/** @jsxImportSource @emotion/react */ import './App.css';
+/** @jsxImportSource @emotion/react */
+import './App.css';
 import { fixedStyle, headerStyle, ss1, ss2, ss3, ss4, ss5 } from './style';
 
 function App() {
